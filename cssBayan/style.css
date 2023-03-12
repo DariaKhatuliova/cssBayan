@@ -50,7 +50,7 @@ input {
     margin: 0;
 }
 
-.button{
+.button {
     opacity: 0;
     background-image: url(./assets/plus-svgrepo-com.svg);
     width: 1.5em;
@@ -76,7 +76,7 @@ input {
     transform: rotate(-45deg);
 }
 
-.meme-input:checked~label h2{
+.meme-input:checked~label .accordion-item-title{
     color: #000000;
 }
 
@@ -180,5 +180,3 @@ input {
         margin-bottom: 0.5rem;
     }
 }
-
- 
